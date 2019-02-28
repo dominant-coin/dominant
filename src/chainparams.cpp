@@ -130,7 +130,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1545134400;
+        genesis.nTime = 1551150000;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 1136838;
 
