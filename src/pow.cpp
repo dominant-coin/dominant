@@ -124,8 +124,8 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
 
     // Check proof of work matches claimed amount
     if (hash > bnTarget){
-        LogPrintf("hash = ", hash);
-        LogPrintf("bits = ",bnTarget);
+        LogPrintf("hash = %s", hash);
+        LogPrintf("bits = %s",bnTarget);
         return error("CheckProofOfWork() : hash doesn't match nBits");
     }
     return true;
