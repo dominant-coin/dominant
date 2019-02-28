@@ -105,9 +105,9 @@ public:
         nTargetTimespan = 1 * 60; // PIVX: 1 day
         nTargetSpacing = 1 * 60;  // PIVX: 1 minute
         nLastPOWBlock = 200;
-        nMaturity = 100;
+        nMaturity = 20;
         nMasternodeCountDrift = 20;
-        nModifierUpdateBlock = 615800;
+        nModifierUpdateBlock = 99999999;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -157,8 +157,8 @@ public:
         fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
-        fRequireStandard = true;
-        fMineBlocksOnDemand = false;
+        fRequireStandard = false;
+        fMineBlocksOnDemand = true;
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
